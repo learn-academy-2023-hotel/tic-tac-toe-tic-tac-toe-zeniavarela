@@ -1,5 +1,108 @@
+body {
+  font-family: 'Comic Sans MS';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #ffd1dc, #ff788c);
+  color: #444444;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Comic Sans MS';
+  font-size: 80px;
+  color: #444444;
+  margin: 10px 0; 
+}
+.player-dropdown {
+  display: flex;
+  justify-content: space-between;
+  width: 450px; 
+  margin-top: 10px; 
+  margin-bottom: 5px;
+}
+label, select {
+  margin: 5px;
+  padding: 5px;
+}
+
+
+.status {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 135px);
+  grid-gap: 10px;
+}
+
 .square {
-  border: 2px solid black;
-  height: 100px;
-  width: 100px;
+  width: 150px;
+  height: 150px;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 2px solid #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+button {
+  font-family: 'Comic Sans MS';
+  position: fixed;
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #444444;
+  color: #ffd1dc;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #540a0a;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  display: flex;
+  color:#444444;;
+  background-color: #ffffff00;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+  transition: transform 0.3s ease-in-out;
+}
+.footer :hover{
+  transform: scale(1.1);
+}
+.github-icon {
+  margin-left: 5px;
+  margin-right: 5px;
 }

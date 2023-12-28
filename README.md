@@ -58,20 +58,22 @@ There is an interesting approach to the [Tic Tac Toe win condition in React](htt
 
 ### 📚 User Stories
 
-- As a user, I can see a three by three grid game board on the page.
-- As a user, I can click on a square to mark it.
-- As a user, my partner can click on a square after me and see their mark.
-- As a user, I can't click on a square that has already been marked.
-- As a user, when either my partner or I win the game (three squares in a row: horizontally, vertically, or diagonally), I can see a notice telling me which player won.
-- As a user, I can't play the game after the game has been won.
-- As a user, if no more squares are available, I can see a notice telling me that the game has ended.
-- As a user, I can click on a restart button that will clear the game board.
+✅- As a user, I can see a three by three grid game board on the page.
+✅- As a user, I can click on a square to mark it.
+✅- As a user, my partner can click on a square after me and see their mark.
+
+✅- As a user, I can't click on a square that has already been marked.
+✅- As a user, when either my partner or I win the game (three squares in a row: horizontally, vertically, or diagonally), I can see a notice telling me which player won.
+✅- As a user, I can't play the game after the game has been won.
+
+✅- As a user, if no more squares are available, I can see a notice telling me that the game has ended.
+✅- As a user, I can click on a restart button that will clear the game board.
 
 ### 🏔 Stretch Goals
 
 - As a user, I can see pleasant stylings on the application.
-- As a user, I can see a notification that informs me whether it is currently my partner or my turn.
-- As a user, I can choose my marker from a predetermined list (X, O, a color, an emoji, etc...).
+✅- As a user, I can see a notification that informs me whether it is currently my partner or my turn.
+✅- As a user, I can choose my marker from a predetermined list (X, O, a color, an emoji, etc...).
 
 ### 👩‍💻 Developer Stretch Goals
 
